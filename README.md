@@ -4,7 +4,7 @@ Group 2 - Haasitha Pidaparthi, Vandana Chandola, Nikhila Churia
 
 ### Steps to access the Notebook
 - Download the repository and open the [ipynb file](https://github.com/HaasiPidaparthi/Smart-Home-Dataset-with-Weather-Information/blob/master/Smart_Home_Dataset_with_Weather_Information.ipynb) using Jupyter Notebook or Google Collab.
-- Change the following file path to match the location where the dataset file [sample_HomeC.csv](https://github.com/HaasiPidaparthi/Smart-Home-Dataset-with-Weather-Information/blob/master/sample_HomeC.csv) is stored.
+- Change the following file path (cell 3) to match the location where the dataset file [sample_HomeC.csv](https://github.com/HaasiPidaparthi/Smart-Home-Dataset-with-Weather-Information/blob/master/sample_HomeC.csv) is stored.
 ```
 home_df = pd.read_csv('/content/gdrive/Shared drives/CMPE 255 - Team Stormtroopers/HomeC.csv')
 ```
